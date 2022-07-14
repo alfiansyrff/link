@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    background-image: url(./Assets/background.jpg);
+    max-width: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+     ;
+}
+
+.gambar {
+    background-color: rgb(112, 97, 97);
+}
+
+.footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
