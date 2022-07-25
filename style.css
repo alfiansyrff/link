@@ -1,12 +1,23 @@
-.container {
-    height: 100vh;
-    background-image: url(./Assets/background.jpg);
-    max-width: 600px;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
+#particles-js {
+    height: 100vh;   
 }
 
+body {
+    
+    height: 104vh;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .btn{
     border-radius: 10px;
     background-color: #8EC5FC;
@@ -15,9 +26,9 @@
 }
 
 .gambar {
-    background-color: rgb(112, 97, 97);
+    background-color: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .footer {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:monospace;
 }
